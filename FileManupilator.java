@@ -7,7 +7,7 @@ public class FileManupilator {
 
     public static void Writer(String srchnm, String usrnm, String psswrd) {
         try {
-            FileWriter filename = new FileWriter("/media/lafeo_007/New Volume1/PasBase/src/TEXT.txt", true);
+            FileWriter filename = new FileWriter("REP/TEXT.txt", true);
 
             BufferedWriter bw = new BufferedWriter(filename);
             bw.newLine();
@@ -24,7 +24,7 @@ public class FileManupilator {
         String line;
         boolean x = false;
         try {
-            FileReader filename = new FileReader("/media/lafeo_007/New Volume1/PasBase/src/TEXT.txt");
+            FileReader filename = new FileReader("REP/TEXT.txt");
             BufferedReader br = new BufferedReader(filename);
 
 
